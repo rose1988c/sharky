@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/project/!svn/ver/4/sharky/templates/accounts
+END
+signup.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/4/sharky/templates/accounts/signup.tpl.php
+END
+login.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/4/sharky/templates/accounts/login.tpl.php
+END
+buddyicon.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/project/!svn/ver/4/sharky/templates/accounts/buddyicon.tpl.php
+END

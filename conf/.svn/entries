@@ -1,0 +1,40 @@
+10
+
+dir
+20361
+http://svn.mcc.com/svn/project/sharky/conf
+http://svn.mcc.com/svn/project
+
+
+
+2010-04-20T03:51:20.706967Z
+4
+lyp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5ca16fc6-cc59-4a02-80c0-35a543107fe5
+
+common.php
+file
+
+
+
+
+2010-04-20T03:51:20.000000Z
+ebb57a3f2b2c62412a5c74a8196cd555
+2010-04-20T03:51:20.706967Z
+4
+lyp
+

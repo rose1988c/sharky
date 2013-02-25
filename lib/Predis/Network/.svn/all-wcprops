@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network
+END
+IConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/IConnection.php
+END
+MasterSlaveReplication.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/MasterSlaveReplication.php
+END
+PhpiredisConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/PhpiredisConnection.php
+END
+WebdisConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/WebdisConnection.php
+END
+ComposableStreamConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/ComposableStreamConnection.php
+END
+StreamConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/StreamConnection.php
+END
+ConnectionBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/ConnectionBase.php
+END
+IConnectionSingle.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/IConnectionSingle.php
+END
+PredisCluster.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/PredisCluster.php
+END
+ConnectionException.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/ConnectionException.php
+END
+IConnectionCluster.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/IConnectionCluster.php
+END
+IConnectionComposable.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/IConnectionComposable.php
+END
+IConnectionReplication.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Network/IConnectionReplication.php
+END

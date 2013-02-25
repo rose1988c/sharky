@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/project/!svn/ver/3637/sharky/deploy
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/project/!svn/ver/4/sharky/deploy/Rakefile
+END
+compress.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/project/!svn/ver/4/sharky/deploy/compress.py
+END
+compile.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/project/!svn/ver/4/sharky/deploy/compile.php
+END
+Capfile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/project/!svn/ver/4/sharky/deploy/Capfile
+END
+yuicompressor-2.4.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project/!svn/ver/4/sharky/deploy/yuicompressor-2.4.2.jar
+END

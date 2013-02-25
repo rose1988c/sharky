@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/project/!svn/ver/16073/sharky/lib/Predis
+END
+CommunicationException.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/project/!svn/ver/16073/sharky/lib/Predis/CommunicationException.php
+END
+IReplyObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project/!svn/ver/16073/sharky/lib/Predis/IReplyObject.php
+END
+Autoloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Autoloader.php
+END
+IConnectionFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/project/!svn/ver/16073/sharky/lib/Predis/IConnectionFactory.php
+END
+ClientException.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/16073/sharky/lib/Predis/ClientException.php
+END
+PredisException.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/16073/sharky/lib/Predis/PredisException.php
+END
+Helpers.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Helpers.php
+END
+ResponseError.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/16073/sharky/lib/Predis/ResponseError.php
+END
+ConnectionParameters.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/project/!svn/ver/16073/sharky/lib/Predis/ConnectionParameters.php
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Client.php
+END
+ConnectionFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/project/!svn/ver/16073/sharky/lib/Predis/ConnectionFactory.php
+END
+ServerException.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/16073/sharky/lib/Predis/ServerException.php
+END
+IConnectionParameters.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project/!svn/ver/16073/sharky/lib/Predis/IConnectionParameters.php
+END
+IRedisServerError.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/project/!svn/ver/16073/sharky/lib/Predis/IRedisServerError.php
+END
+NotSupportedException.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project/!svn/ver/16073/sharky/lib/Predis/NotSupportedException.php
+END
+ResponseQueued.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/16073/sharky/lib/Predis/ResponseQueued.php
+END
+MonitorContext.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/16073/sharky/lib/Predis/MonitorContext.php
+END

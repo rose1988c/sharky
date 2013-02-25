@@ -1,0 +1,67 @@
+10
+
+dir
+20361
+http://svn.mcc.com/svn/project/sharky/lib/searching/Solr
+http://svn.mcc.com/svn/project
+
+
+
+2010-04-20T03:51:20.706967Z
+4
+lyp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5ca16fc6-cc59-4a02-80c0-35a543107fe5
+
+Document.php
+file
+
+
+
+
+2010-04-20T03:51:20.000000Z
+d3ff21aa3345f41c5509d543d2a04c26
+2010-04-20T03:51:20.706967Z
+4
+lyp
+
+Response.php
+file
+
+
+
+
+2010-04-20T03:51:20.000000Z
+4b492af461b3b36ef2748796e69af511
+2010-04-20T03:51:20.706967Z
+4
+lyp
+
+Service
+dir
+
+Service.php
+file
+
+
+
+
+2010-04-20T03:51:20.000000Z
+4e6c1de50b99c5aec70e0b1758eec0db
+2010-04-20T03:51:20.706967Z
+4
+lyp
+

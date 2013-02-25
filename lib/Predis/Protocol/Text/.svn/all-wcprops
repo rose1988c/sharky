@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text
+END
+ResponseBulkHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/ResponseBulkHandler.php
+END
+ResponseStatusHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/ResponseStatusHandler.php
+END
+ResponseIntegerHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/ResponseIntegerHandler.php
+END
+ResponseErrorSilentHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/ResponseErrorSilentHandler.php
+END
+ResponseMultiBulkHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/ResponseMultiBulkHandler.php
+END
+ResponseMultiBulkStreamHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/ResponseMultiBulkStreamHandler.php
+END
+TextCommandSerializer.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/TextCommandSerializer.php
+END
+TextResponseReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/TextResponseReader.php
+END
+ComposableTextProtocol.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/ComposableTextProtocol.php
+END
+ResponseErrorHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/ResponseErrorHandler.php
+END
+TextProtocol.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Protocol/Text/TextProtocol.php
+END

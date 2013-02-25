@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/project/!svn/ver/9394/sharky/lib/filesystem
+END
+simplefs.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/project/!svn/ver/4/sharky/lib/filesystem/simplefs.php
+END
+mogilefs.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/project/!svn/ver/9394/sharky/lib/filesystem/mogilefs.class.php
+END
+ypfs.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/project/!svn/ver/4/sharky/lib/filesystem/ypfs.php
+END
+filestore.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/project/!svn/ver/4/sharky/lib/filesystem/filestore.php
+END

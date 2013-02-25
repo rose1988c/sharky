@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/project/!svn/ver/19688/sharky/lib/core
+END
+dispatcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/project/!svn/ver/15342/sharky/lib/core/dispatcher.php
+END
+message.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/project/!svn/ver/16041/sharky/lib/core/message.php
+END
+auth.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/project/!svn/ver/19065/sharky/lib/core/auth.php
+END
+template.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/project/!svn/ver/9394/sharky/lib/core/template.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/project/!svn/ver/7425/sharky/lib/core/database.php
+END
+dbobject.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/project/!svn/ver/10173/sharky/lib/core/dbobject.php
+END
+cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/project/!svn/ver/19688/sharky/lib/core/cache.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/project/!svn/ver/3755/sharky/lib/core/config.php
+END
+pager.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/project/!svn/ver/5977/sharky/lib/core/pager.php
+END
+form.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/project/!svn/ver/19664/sharky/lib/core/form.php
+END
+sharding.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/project/!svn/ver/15341/sharky/lib/core/sharding.php
+END

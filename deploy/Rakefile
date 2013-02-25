@@ -1,0 +1,150 @@
+require 'rake'
+require 'yaml'
+
+# Common Variables ---------------------------------------------------------------
+
+PATH_SEP       = ":"
+BASE_DIR       = File.dirname(__FILE__)
+APP_NAME       = ""
+APP_VERSION    = "0.1.1"
+
+LIB_DIR        = "lib"
+BUILD_DIR      = "build"
+DEST_DIR       = "dest"
+
+# Classpath ---------------------------------------------------------------------
+
+LIB = YAML.load(File.open('lib/lib.yml'))
+
+def build_classpath(classpath, *libs)
+  libs.flatten!
+  
+  libs.each do |l|
+    jar = LIB[l]['jar']
+
+    jar = [jar] unless jar.class == Array
+    
+    jar.each do |j|
+      path = File.join(LIB['dir'], LIB[l]['dir'], j)
+      classpath << PATH_SEP << path unless classpath.include? path
+    end
+    
+    # add requirements
+    build_classpath(classpath, LIB[l]['require']) if LIB[l]['require']
+  end
+  
+  classpath
+end
+
+
+COMPILE_CLASSPATH = build_classpath("", LIB['compile-classpath'])
+JS_COMPRESSION_CLASSPATH = build_classpath("", LIB['js-compression-classpath'])
+
+
+# Make directory structure ------------------------------------------------------
+
+DIRS = [DEST_DIR, BUILD_DIR, "#{BUILD_DIR}/web", "#{BUILD_DIR}/app", "#{BUILD_DIR}/app/WEB-INF"]
+
+desc "Make the directory structure for building"
+task :make_dir_structure do
+  DIRS.each { |dir| mkdir_p dir }
+end
+
+# Task clean -------------------------------------------------------------------
+CLEAN = FileList[DEST_DIR, BUILD_DIR]
+
+desc "Remove any temporary products."
+task :clean do
+  CLEAN.each { |fn| rm_rf fn rescue nil }
+end
+
+# Package Web files -----------------------------------------------------------
+
+WEB_FILES = FileList[
+    'www/help/**/*',
+    'www/apidoc/**/*',
+    'www/img/**/*',
+    'www/tools/**/*',
+    'www/YCasting/**/*',
+    'www/**/*.html',
+    'www/**/*.css',
+    'www/**/*.htc',
+    'www/**/*.gif',
+    'www/**/*.jpg',
+    'www/**/*.jbf',
+    'www/**/*.png',
+    'www/**/*.swf',
+    'www/**/*.zip',
+    'www/**/*.xml',
+    'www/favicon.ico',
+    'www/crossdomain.xml'
+  ].exclude('*.jsp', '*.ftl', 'web/WEB-INF')
+
+desc "Copy static web files..."
+task :copy_web_files do
+  WEB_FILES.each do |f|
+    cp_file f, "#{BUILD_DIR}/#{f}"
+  end
+end
+
+def cp_file!(src, dest)
+  if File.file? src
+    mkdirs_if_not_exists dest
+    cp src, dest
+  end
+end
+
+def cp_file(src, dest)
+  if File.file? src
+    if not File.exists?(dest) or File.new(src).mtime > File.new(dest).mtime
+      mkdirs_if_not_exists dest
+      cp src, dest
+    end
+  end
+end
+
+def mkdirs_if_not_exists(file)
+  non_exists_dirs = []
+  dir = File.dirname(file)
+  while not File.exists?(dir)
+    non_exists_dirs << dir
+    dir = File.dirname(dir)
+  end
+  if not non_exists_dirs.empty?
+    non_exists_dirs.reverse!.each { |d| mkdir d }
+  end
+end
+
+JS_FILES = FileList[
+    'web/**/*.js'
+  ].exclude(
+    'web/scripts/mt/mootools.v1.11.js',
+    'web/ext/ext-all.js'
+  )
+
+desc "Compress javascript source files"
+task :compress_js_files do
+  excludes = JS_COMPRESS_EXCLUDE_FILES.to_a
+  JS_FILES.each do |js|
+    if excludes.include?(js)
+      if JS_RENAME_DICT[js]
+        cp_file js, "#{BUILD_DIR}/#{JS_RENAME_DICT[js]}"
+      else
+        cp_file js, "#{BUILD_DIR}/#{js}"
+      end
+    else
+      # use java to compress js
+      if JS_RENAME_DICT[js]
+      	compress_js js, JS_RENAME_DICT[js]
+      else
+      	compress_js js, js
+      end
+    end
+  end
+end
+
+def compress_js(js_file, to_file)
+  puts "compressing javascript: #{js_file}"
+  sh "java -cp #{JS_COMPRESSION_CLASSPATH} com.yupoo.tools.JSCompressor -l #{js_file} #{BUILD_DIR}/#{to_file}"
+end
+

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options
+END
+CustomOption.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options/CustomOption.php
+END
+IClientOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options/IClientOptions.php
+END
+ClientPrefix.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options/ClientPrefix.php
+END
+ClientProfile.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options/ClientProfile.php
+END
+IOption.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options/IOption.php
+END
+ClientCluster.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options/ClientCluster.php
+END
+ClientConnectionFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options/ClientConnectionFactory.php
+END
+ClientReplication.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options/ClientReplication.php
+END
+ClientOptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options/ClientOptions.php
+END
+Option.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Options/Option.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Transaction
+END
+AbortedMultiExecException.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Transaction/AbortedMultiExecException.php
+END
+MultiExecContext.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Transaction/MultiExecContext.php
+END

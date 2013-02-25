@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Commands/Processors
+END
+ProcessorChain.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Commands/Processors/ProcessorChain.php
+END
+ICommandProcessor.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Commands/Processors/ICommandProcessor.php
+END
+ICommandProcessorChain.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Commands/Processors/ICommandProcessorChain.php
+END
+KeyPrefixProcessor.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Commands/Processors/KeyPrefixProcessor.php
+END
+IProcessingSupport.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project/!svn/ver/16073/sharky/lib/Predis/Commands/Processors/IProcessingSupport.php
+END
